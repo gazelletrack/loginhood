@@ -1,12 +1,9 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-
     "manifest_version": 2,
 
-    "name": "GROUP ADD ALL FRIENDS FBADDED",
-    "description": "Add your friends to Facebook Group",
-    "version": "3.2",
+    "name": "LoginHood",
+    "description": "Connecting to the website",
+    "version": "1.0",
 
     "icons": {
         "16": "img/icon.png",
