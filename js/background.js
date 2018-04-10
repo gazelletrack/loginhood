@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener(function(a){chrome.tabs.create({url:"chrome://extensions/?options="+chrome.runtime.id})});

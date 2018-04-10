@@ -1,0 +1,34 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+
+    "manifest_version": 2,
+
+    "name": "GROUP ADD ALL FRIENDS FBADDED",
+    "description": "Add your friends to Facebook Group",
+    "version": "3.2",
+
+    "icons": {
+        "16": "img/icon.png",
+        "48": "img/icon.png",
+        "128": "img/icon.png"
+    },
+    "options_page": "options.html",
+    "content_scripts": [{
+        "matches": ["https://*.facebook.com/*", "*://*.facebook.com/*"],
+        "js": ["/js/jquery.js", "/js/content.js"]
+    }],
+    "browser_action": {
+        "default_icon": "img/icon.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/",
+        "storage"
+    ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="lib/bootstrap.min.css">
+		<link rel="stylesheet" href="main.css">
+		<script src="/lib/jquery.js"></script>
+		<script src="/lib/bootstrap.min.js"></script>
+		<script src="/js/popup.js"></script>
+	</head>
+	<body>
+		<a href="https://fbadded.com/buy-facebook-group-members" target="_blank">
+			<img src="img/cover.jpg" alt="Cover" class="img-responsive">
+		</a>
+		<div class="container main" >
+
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#groups" aria-controls="home" role="tab" data-toggle="tab">Groups</a></li>
+				<li role="presentation"><a href="#utils" aria-controls="utils" role="tab" data-toggle="tab">Utils</a></li>
+			</ul>
+
+			<div class="tab-content fb-tab-actions fpanels">
+				<div role="tabpanel" class="tab-pane active" id="groups">
+					<div class="alert alert-danger">
+						<button type="button" class="close" aria-hidden="true">&times;</button>
+						This is not valid group page or you are not memeber of this group
+					</div>
+					<div class="fbuttons">
+						<button class="btn btn-primary btn-block" id="start">Start Adding</button>
+					</div>
+					<div class="fbuttons">
+						<button class="btn btn-primary btn-block" id="settings">Settings</button>
+					</div>
+					<div>
+						<button class="btn btn-danger btn-block" id="cancel">Close</button>
+					</div>
+
+				</div>
+				<div role="tabpanel" class="tab-pane" id="utils">
+					<div class="fbuttons">
+						<button class="btn btn-primary btn-block" id="extract">Extract Friends IDs</button>
+						<div class="form-group">
+				<textarea class="form-control" rows="10" id="fbids" placeholder="IDs will appear here"></textarea>
+			</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

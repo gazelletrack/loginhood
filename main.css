@@ -1,0 +1,30 @@
+body {
+	width:400 !important;
+	height:auto;
+	margin-top:2px;
+}
+#fbids {
+	margin-top: 15px;
+}
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+.navbar-inverse .navbar-header {
+	background: #4e5158
+}
+.fpanels {
+	margin-top: 30px;
+}
+.main {
+	min-width: 400px;
+}
+.container{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.fbuttons{
+	margin-bottom: 10px;
+}
+.alert{
+  display:none;
+}
