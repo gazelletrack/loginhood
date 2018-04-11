@@ -13,7 +13,7 @@ body {
 	background: #4e5158
 }
 .fpanels {
-	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .main {
 	min-width: 400px;
@@ -27,4 +27,7 @@ body {
 }
 .alert{
   display:none;
+}
+.nav-tabs>li {
+    margin-top: -1px;
 }
