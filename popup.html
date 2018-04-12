@@ -3,6 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="lib/bootstrap.min.css">
 		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="profile.css">
 		<script src="/lib/jquery.js"></script>
 		<script src="/lib/bootstrap.min.js"></script>
 		<script src="/js/popup.js"></script>
@@ -35,9 +36,68 @@
 				</div>
 				<div role="tabpanel" class="tab-pane" id="profile">
 					<div class="fbuttons">
-						<button class="btn btn-primary btn-block" id="extract">My Profile</button>
-						<div class="form-group">
-							<textarea class="form-control" rows="10" id="fbids" placeholder="IDs will appear here"></textarea>
+						<div class="row profile">
+							<div class="profile-sidebar">
+								<!-- SIDEBAR USERPIC -->
+								<div class="profile-userpic">
+									<img src="http://keenthemes.com/preview/metronic/theme/assets/admin/pages/media/profile/profile_user.jpg" class="img-responsive"
+									alt="">
+								</div>
+								<!-- END SIDEBAR USERPIC -->
+								<!-- SIDEBAR USER TITLE -->
+								<div class="profile-usertitle">
+									<div class="profile-usertitle-name">
+										Marcus Doe
+									</div>
+									<div class="profile-usertitle-job">
+										Developer
+									</div>
+								</div>
+								<!-- END SIDEBAR USER TITLE -->
+								<!-- SIDEBAR BUTTONS -->
+								<div class="profile-userbuttons">
+									<button type="button" class="btn btn-success btn-sm">Follow</button>
+									<button type="button" class="btn btn-danger btn-sm">Message</button>
+								</div>
+								<!-- END SIDEBAR BUTTONS -->
+								<!-- SIDEBAR MENU -->
+								<div class="profile-usermenu">
+									<ul class="nav">
+										<li class="active">
+											<a href="#">
+												<i class="email"></i>
+												Email </a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa fa-user"></i>
+												Preferences </a>
+										</li>
+										<li>
+											<a href="#" target="_blank">
+												<i class="fa fa-info-circle"></i>
+												Privacy Terms </a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="people_outline"></i>
+												Opt-outs </a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="question_answer"></i>
+												FAQs </a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa fa-sign-out"></i>
+												Logout </a>
+										</li>
+										
+									</ul>
+								</div>
+								<!-- END MENU -->
+							</div>
 						</div>
 					</div>
 				</div>
@@ -45,7 +105,7 @@
 
 			<ul class="nav nav-tabs" role="tablist" style="border-top: 1px solid #ddd;">
 				<li role="presentation" class="tabitem active">
-					<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+					<a href="#home" aria-controls="home" role="tab" data-toggle="tab" onclick="$(this).css('border-bottom-color', 'rgb(0, 164, 184)');">
 						<i class="fa fa-dollar" style="font-size:48px"></i>
 					</a>
 				</li>
