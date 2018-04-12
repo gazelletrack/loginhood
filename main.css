@@ -37,8 +37,19 @@ body {
 	margin-left: -1px;
 	margin-right: -1px;
 	text-align: -webkit-center;
-	width: 33.3333%;
+	width: 33%;
+}
+.nav-tabs>li:nth-child(2) {
+	width: 34% !important;
+}
+.nav-tabs>li.active>a{
+	border-bottom-color: rgb(0, 164, 184);
+    border-width: 1px;
 }
 .nav>li>a>img {
     width: 50%;
+}
+.tabitem{
+	padding-left: 0px;
+	padding-right: 0px;
 }
