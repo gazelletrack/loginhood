@@ -10,7 +10,6 @@
         "48": "img/icon.png",
         "128": "img/icon.png"
     },
-    //"options_page": "options.html",
     "content_scripts": [{
         "matches": ["https://*.facebook.com/*", "*://*.facebook.com/*"],
         "js": ["/js/jquery.js", "/js/content.js"]
