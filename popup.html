@@ -15,7 +15,7 @@
 		<div class="container main" >
 
 			<div class="tab-content fb-tab-actions fpanels">
-				<div role="tabpanel" class="tab-pane active" id="groups">
+				<div role="tabpanel" class="tab-pane active" id="home">
 					<div class="alert alert-danger">
 						<button type="button" class="close" aria-hidden="true">&times;</button>
 						This is not valid group page or you are not memeber of this group
@@ -31,9 +31,17 @@
 					</div>
 
 				</div>
-				<div role="tabpanel" class="tab-pane" id="utils">
+				<div role="tabpanel" class="tab-pane" id="passport">
 					<div class="fbuttons">
 						<button class="btn btn-primary btn-block" id="extract">Extract Friends IDs</button>
+						<div class="form-group">
+							<textarea class="form-control" rows="10" id="fbids" placeholder="IDs will appear here"></textarea>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="profile">
+					<div class="fbuttons">
+						<button class="btn btn-primary btn-block" id="extract">My Profile</button>
 						<div class="form-group">
 							<textarea class="form-control" rows="10" id="fbids" placeholder="IDs will appear here"></textarea>
 						</div>
