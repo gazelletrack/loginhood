@@ -37,6 +37,7 @@ body {
 	margin-left: -1px;
 	margin-right: -1px;
 	text-align: -webkit-center;
+	width: 33.33%;
 }
 .nav>li>a>img {
     width: 50%;
