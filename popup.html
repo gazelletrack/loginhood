@@ -4,10 +4,12 @@
 		<link rel="stylesheet" href="lib/bootstrap.min.css">
 		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="profile.css">
+		<link rel="stylesheet" href="panel.css">
 		<script src="/lib/jquery.js"></script>
 		<script src="/lib/bootstrap.min.js"></script>
 		<script src="/js/popup.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	</head>
 	<body>
@@ -21,18 +23,152 @@
 					<a href="#"><img src="img/sign.gif" height="100px" width="200px"></a>
 				</div>
 				<div role="tabpanel" class="tab-pane" id="passport">
-					<div class="alert alert-danger">
-						<button type="button" class="close" aria-hidden="true">&times;</button>
-						This is not valid group page or you are not memeber of this group
+					<div class="row" style="padding: 10px;">
+						<span class="label label-success" style="font-size:24px;">Your Info</span>
 					</div>
-					<div class="fbuttons">
-						<button class="btn btn-primary btn-block" id="start">Start Adding</button>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<i class="fa fa-list-alt"></i>Your Country
+									<div class="pull-right action-buttons">
+										<div class="btn-group pull-right">
+											<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+												<i class="fa fa-cog" style="margin-right: 0px;"></i>
+											</button>
+											<ul class="dropdown-menu slidedown">
+												<div class="pull-right action-buttons">
+													<a href="http://www.jquery2dotnet.com">
+														<i class="fa fa-pencil"></i>
+													</a>
+													<a href="http://www.jquery2dotnet.com" class="trash">
+														<i class="fa fa-trash"></i>
+													</a>
+													<a href="http://www.jquery2dotnet.com" class="flag">
+														<i class="fa fa-flag-o"></i>
+													</a>
+												</div>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item">
+											<div class="checkbox">
+												<input type="checkbox" id="checkbox2" />
+												<label for="checkbox2">
+													United States
+												</label>
+											</div>
+											<div class="pull-right action-buttons">
+												<a href="http://www.jquery2dotnet.com">
+													<i class="fa fa-pencil"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="trash">
+													<i class="fa fa-trash"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="flag">
+													<i class="fa fa-flag-o"></i>
+												</a>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<input type="checkbox" id="checkbox3" />
+												<label for="checkbox3">
+													 Canada
+												</label>
+											</div>
+											<div class="pull-right action-buttons">
+												<a href="http://www.jquery2dotnet.com">
+													<i class="fa fa-pencil"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="trash">
+													<i class="fa fa-trash"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="flag">
+													<i class="fa fa-flag-o"></i>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="fbuttons">
-						<button class="btn btn-primary btn-block" id="settings">Settings</button>
-					</div>
-					<div>
-						<button class="btn btn-danger btn-block" id="cancel">Close</button>
+
+					<div class="row">
+						<div class="col-md-6">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<i class="fa fa-list-alt"></i>Your Traveling Place
+									<div class="pull-right action-buttons">
+										<div class="btn-group pull-right">
+											<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+												<i class="fa fa-cog" style="margin-right: 0px;"></i>
+											</button>
+											<ul class="dropdown-menu slidedown">
+												<div class="pull-right action-buttons">
+													<a href="http://www.jquery2dotnet.com">
+														<i class="fa fa-pencil"></i>
+													</a>
+													<a href="http://www.jquery2dotnet.com" class="trash">
+														<i class="fa fa-trash"></i>
+													</a>
+													<a href="http://www.jquery2dotnet.com" class="flag">
+														<i class="fa fa-flag-o"></i>
+													</a>
+												</div>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item">
+											<div class="checkbox">
+												<input type="checkbox" id="checkbox2" />
+												<label for="checkbox2">
+													Italy
+												</label>
+											</div>
+											<div class="pull-right action-buttons">
+												<a href="http://www.jquery2dotnet.com">
+													<i class="fa fa-pencil"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="trash">
+													<i class="fa fa-trash"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="flag">
+													<i class="fa fa-flag-o"></i>
+												</a>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="checkbox">
+												<input type="checkbox" id="checkbox3" />
+												<label for="checkbox3">
+													Poland
+												</label>
+											</div>
+											<div class="pull-right action-buttons">
+												<a href="http://www.jquery2dotnet.com">
+													<i class="fa fa-pencil"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="trash">
+													<i class="fa fa-trash"></i>
+												</a>
+												<a href="http://www.jquery2dotnet.com" class="flag">
+													<i class="fa fa-flag-o"></i>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane" id="profile">
